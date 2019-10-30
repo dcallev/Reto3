@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="As a patient" skipped="0" tests="4" time="67.59" timestamp="2019-10-24 09:25:20"><testcase name="Register a new doctor"><error message="The following error occurred: Element should have been &quot;select&quot; but was &quot;input&quot;&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0FNML4', ip: '172.17.27.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.support.ui.UnexpectedTagNameException">The following error occurred: Element should have been "select" but was "input"
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0FNML4', ip: '172.17.27.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Element should have been "select" but was "input"
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0FNML4', ip: '172.17.27.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown&#13;
+co.co.choucair.certification.retotres.tasks.RegisterDoctor.performAs(RegisterDoctor.java:27)&#13;
+co.co.choucair.certification.retotres.stepdefinitions.RetotresStepDefinitions.heMakesTheRegistrationOfTheDoctorInTheHospitalAdministrationApplication(RetotresStepDefinitions.java:27)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Register a new patient"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.co.choucair.certification.retotres.tasks.RegisterPatient.performAs(RegisterPatient.java:36)&#13;
+co.co.choucair.certification.retotres.stepdefinitions.RetotresStepDefinitions.heMakesTheRegistrationOfThePatientInTheHospitalAdministrationApplication(RetotresStepDefinitions.java:36)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Schedule an Appointment"><error message="No such field co.co.choucair.certification.retotres.model.Schedule.date" type="cucumber.runtime.CucumberException">No such field co.co.choucair.certification.retotres.model.Schedule.date</error><system-err>No such field co.co.choucair.certification.retotres.model.Schedule.date&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
